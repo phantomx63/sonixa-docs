@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sonixa Bot Documentation</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/a2e0e6f6b2.js" crossorigin="anonymous"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 1rem;
+      background: linear-gradient(90deg, #1f6feb, #8250df, #9e2fff);
+      color: #fff;
+      animation: gradient 6s ease infinite alternate;
+    }
+
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px #fff;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #161b22;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(31, 111, 235, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 30px rgba(130, 80, 223, 0.4);
+    }
+
+    h2 {
+      color: #58a6ff;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    code {
+      background: #21262d;
+      color: #d2a8ff;
+      padding: 6px 10px;
+      border-radius: 6px;
+      display: inline-block;
+      margin: 4px 0;
+      word-wrap: break-word;
+    }
+
+    ul, ol {
+      margin-left: 1.5rem;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #8b949e;
+      border-top: 1px solid #30363d;
+      margin-top: 3rem;
+    }
+
+    .command-block {
+      margin: 10px 0;
+      padding: 10px;
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      section {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🎵 Sonixa Discord Bot</h1>
+  <p>Powerful, smooth, and feature-packed — your ultimate Discord music companion.</p>
+</header>
+
+<section>
+  <h2><i class="fas fa-rocket"></i> Overview</h2>
+  <p><b>Sonixa</b> is a high-quality <b>Discord Music Bot</b> with advanced filters, smooth playback, and easy-to-use commands. 
+  Whether you're hosting a music session, chilling with friends, or managing your server, Sonixa is built to deliver the best experience possible.</p>
+</section>
+
+<section>
+  <h2><i class="fas fa-music"></i> Music Commands</h2>
+  <div class="command-block">
+    autoplay, clear, disconnect, join, loop, lyrics, nowplaying, pause, play, queue, remove, replay, resume, search, seek, shuffle, skip, stop, volume
+  </div>
+</section>
+
+<section>
+  <h2><i class="fas fa-sliders-h"></i> Filter Commands</h2>
+  <div class="command-block">
+    3d, alien, ambient, bass, bassboost, chill, china, chipmuk, dance, darthvader, daycore, doubletime, haunted, lofi, muffled, nightcore, reset, slowed, soft, softfocus, softguitar, cosmic, underwater, warmpad
+  </div>
+</section>
+
+<section>
+  <h2><i class="fas fa-cogs"></i> Config Commands</h2>
+  <div class="command-block">
+    247, djrole, ignorechannel, prefix, restrict, setup, setupplayer, unrestrict
+  </div>
+</section>
+
+<section>
+  <h2><i class="fas fa-info-circle"></i> Info Commands</h2>
+  <div class="command-block">
+    profile, help, invite, links, partner, ping, stats, support, uptime, vote, avatar, premium, premiumstatus, npreq
+  </div>
+</section>
+
+<section>
+  <h2><i class="fas fa-gamepad"></i> Miscellaneous Commands</h2>
+  <div class="command-block">
+    blush, bonk, cat, cry, cuddle, dance, hug, kill, pat, poke, punch, roast, slap, wink
+  </div>
+</section>
+
+<section>
+  <h2><i class="fas fa-brain"></i> Getting Started</h2>
+  <ol>
+    <li>Invite the bot: <a href="#">Invite Sonixa</a></li>
+    <li>Join a voice channel.</li>
+    <li>Use <code>/play &lt;song&gt;</code> or <code>!play &lt;song&gt;</code> to start playing music.</li>
+  </ol>
+</section>
+
+<section>
+  <h2><i class="fas fa-gem"></i> Premium Features</h2>
+  <ul>
+    <li>🎧 320kbps High-Quality Audio</li>
+    <li>✨ Exclusive filters (cosmic, underwater, softfocus)</li>
+    <li>⚡ Priority Support</li>
+  </ul>
+</section>
+
+<section>
+  <h2><i class="fas fa-link"></i> Support & Links</h2>
+  <ul>
+    <li>🌐 Website: <a href="#">Coming Soon</a></li>
+    <li>💌 Invite Bot: <a href="#">Click Here</a></li>
+    <li>💬 Support Server: <a href="#">Join Here</a></li>
+    <li>💎 Vote: <a href="#">Top.gg</a></li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2025 Sonixa Development Team. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
